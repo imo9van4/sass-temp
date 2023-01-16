@@ -1,0 +1,35 @@
+/*variables*/
+/*colors*/
+/*typography*/
+/*padding/margin/radius*/
+button {
+  background-color: #eadf42;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 2px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: #cab5f0;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif;
+  background-color: #ab99ca;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main, .content, .p-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */

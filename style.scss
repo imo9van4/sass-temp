@@ -1,0 +1,46 @@
+/*variables*/
+
+/*colors*/
+$primary-color: #ab99ca;
+$secondary-color: #eadf42;
+$accent-color: #cab5f0;
+$accent-color-b: white;
+
+/*typography*/
+$fonts: 'Poppins', Helvetica, sans-serif;
+
+/*padding/margin/radius*/
+$rounded: 5px;
+$big_spacing: 2rem;
+$small_spacing: 2px;
+$small_padding: 7px;
+$big_padding: 15px;
+
+button{
+    background-color: $secondary-color;
+    border-radius: $rounded;
+    padding: $small_padding;
+    margin: $small_spacing;
+    border-style: none;
+}
+
+button:hover{
+    background-color: $accent-color;
+    color: $accent-color-b;
+    cursor: pointer;
+}
+   
+body {
+    font-family: $fonts;
+    background-color: $primary-color;
+    padding: $big_spacing;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main, .content, .p-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

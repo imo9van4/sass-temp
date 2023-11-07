@@ -1,34 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <title>Bootstrap Layout</title>
 </head>
 <body>
-    <div class="header">
-        <h2>Heading</h2>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col navbar">
+        
+      </div>
     </div>
-    <div class="main">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-        <p class="p-main"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ducimus, illo incidunt delectus officiis veritatis?</em></p>
-        <div class="btn-group">
-        <button>Button 1</button>
-        <button>Button 2</button>
+    <div class="row">
+      <div class="col-lg-12 col hero">
+
+
+        <button class="primary">Button 1</button>
+        <button class="secondary">Button 2</button>
+      </div>
     </div>
+    <div class="row">
+    <div class="col-lg-4 col-xs-6 col info">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/2380451/pexels-photo-2380451.jpeg" width="250px" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
     </div>
-    <div class="content">
-        <h3>Lorem ipsum dolor sit? Lorem, ipsum dolor!</h3>
-        <ul>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-        </ul>
-        <p class="p-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, labore aliquid ipsam eveniet enim eligendi.</p>
+    <div class="col-lg-4 col-xs-6 col info">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/14380372/pexels-photo-14380372.jpeg" width="250px" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
     </div>
+    <div class="col-lg col-sm-12 col info">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/8677180/pexels-photo-8677180.jpeg" width="250px" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+      </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 col other">Social Proof</div>
+      <div class="col-lg col other">Contact Form</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col">
+        Footer
+      </div>
+    </div>
+  </div>
 </body>
 </html>

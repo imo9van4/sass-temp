@@ -3,7 +3,7 @@
 /*colors*/
 $primary-color: #ab99ca;
 $secondary-color: #eadf42;
-$accent-color: #cab5f0;
+$accent-color-a: #e82bd8;
 $accent-color-b: white;
 
 /*typography*/
@@ -16,24 +16,29 @@ $small_spacing: 2px;
 $small_padding: 7px;
 $big_padding: 15px;
 
-button{
+.primary{
+    background-color: $accent-color-a;
+    border-radius: $rounded;
+    padding: $small_padding;
+    margin: $small_spacing;
+    border-style: none;
+}
+.secondary{
     background-color: $secondary-color;
     border-radius: $rounded;
     padding: $small_padding;
     margin: $small_spacing;
     border-style: none;
 }
-
 button:hover{
-    background-color: $accent-color;
+    background-color: $primary-color;
     color: $accent-color-b;
     cursor: pointer;
-}
-   
+}  
 body {
     font-family: $fonts;
     background-color: $primary-color;
-    padding: $big_spacing;
+    // padding: $big_spacing;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -43,4 +48,11 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.navbar{
+    background-color: $primary-color;
+}
+.hero{
+    height: 50vh;
+    background-color: $accent-color-b;
 }

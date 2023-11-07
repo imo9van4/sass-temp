@@ -2,7 +2,15 @@
 /*colors*/
 /*typography*/
 /*padding/margin/radius*/
-button {
+.primary {
+  background-color: #e82bd8;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 2px;
+  border-style: none;
+}
+
+.secondary {
   background-color: #eadf42;
   border-radius: 5px;
   padding: 7px;
@@ -11,7 +19,7 @@ button {
 }
 
 button:hover {
-  background-color: #cab5f0;
+  background-color: #ab99ca;
   color: white;
   cursor: pointer;
 }
@@ -19,7 +27,6 @@ button:hover {
 body {
   font-family: "Poppins", Helvetica, sans-serif;
   background-color: #ab99ca;
-  padding: 2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,4 +39,13 @@ body {
   flex-direction: column;
 }
 
-/*# sourceMappingURL=style.css.map */
+.navbar {
+  background-color: #ab99ca;
+}
+
+.hero {
+  height: 50vh;
+  background-color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
